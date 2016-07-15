@@ -10,7 +10,7 @@ def run(command):
 
 def containers():
     containers = []
-    for lxc in run("lxc-ls -1").split("\n"):
+    for lxc in run("lxc-ls --active -1").split("\n"):
         if lxc:
             containers.append(int(lxc.strip()))
     return containers
