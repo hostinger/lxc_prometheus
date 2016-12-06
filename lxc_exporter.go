@@ -29,7 +29,7 @@ var (
     }
     metricsMapping      = map[string]string {
         "cpu":          "CPU use",
-        "memory":       "Memory usage",
+        "memory":       "Memory use",
         "total_bytes":  "Total bytes",
         "rx_bytes":     "RX bytes",
         "tx_bytes":     "TX bytes",
